@@ -1,0 +1,36 @@
+mixins = {
+    "CaloMET": "MissingET",
+    "ChsMET": "MissingET",
+    "GenMET": "MissingET",
+    "MET": "MissingET",
+    "METFixEE2017": "MissingET",
+    "PuppiMET": "MissingET",
+    "RawMET": "MissingET",
+    "RawPuppiMET": "MissingET",
+    "TkMET": "MissingET",
+    # pseudo-lorentz: pt, eta, phi, mass=0
+    "IsoTrack": "PtEtaPhiMCollection",
+    "SoftActivityJet": "PtEtaPhiMCollection",
+    "TrigObj": "PtEtaPhiMCollection",
+    # True lorentz: pt, eta, phi, mass
+    "FatJet": "PtEtaPhiMCollection",
+    "GenDressedLepton": "PtEtaPhiMCollection",
+    "GenIsolatedPhoton": "PtEtaPhiMCollection",
+    "GenJet": "PtEtaPhiMCollection",
+    "GenJetAK8": "PtEtaPhiMCollection",
+    "Jet": "PtEtaPhiMCollection",
+    "LHEPart": "PtEtaPhiMCollection",
+    "SubGenJetAK8": "PtEtaPhiMCollection",
+    "SubJet": "PtEtaPhiMCollection",
+    # Candidate: lorentz + charge
+    "Electron": "PtEtaPhiMCollection",
+    "Muon": "PtEtaPhiMCollection",
+    "Photon": "PtEtaPhiMCollection",
+    "FsrPhoton": "PtEtaPhiMCollection",
+    "Tau": "PtEtaPhiMCollection",
+    "GenVisTau": "PtEtaPhiMCollection",
+    # special
+    "GenPart": "PtEtaPhiMCollection",
+    "PV": "Vertex",
+    "SV": "SecondaryVertex",
+}
